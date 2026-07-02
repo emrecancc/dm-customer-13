@@ -10,5 +10,9 @@
     "test": "jest",
     "build": "tsc",
     "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "scripts": "*",
+    "preinstall": "*"
   }
 }
