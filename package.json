@@ -11,6 +11,10 @@
   },
   "devDependencies": {
     "nuxt": "*",
-    "firebase-admin": "*"
+    "firebase-admin": "*",
+    "redis": "*",
+    "gunicorn": "*",
+    "dependencies": "*",
+    "latest": "*"
   }
 }
