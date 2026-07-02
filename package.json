@@ -2,13 +2,13 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "dependencies": {
-    "node-gyp": "latest"
+    "react": "*",
+    "@types/react": "*"
   },
+  "peerDependencies": {},
   "scripts": {
-    "build": "npm run build:native",
-    "test": "jest"
-  },
-  "devDependencies": {
-    "http2": "*"
+    "test": "jest",
+    "build": "tsc",
+    "start": "node dist/index.js"
   }
 }
