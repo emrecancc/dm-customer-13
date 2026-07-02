@@ -1,4 +1,6 @@
 class UserService:
-    def get_user(self, user_id):
-        # TODO: implement
-        pass
+    def __init__(self, db):
+        self.db = db
+
+    def get_user(self, user_id)
+        return self.db.query('SELECT * FROM users WHERE id = ?', user_id)
