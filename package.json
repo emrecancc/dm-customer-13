@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "nuxt": "*",
-    "firebase-admin": "*"
+    "firebase-admin": "*",
+    "celery": "*"
   }
 }
