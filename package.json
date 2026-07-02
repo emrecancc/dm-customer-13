@@ -13,7 +13,11 @@
     "@sveltejs/kit": "^1.0.0",
     "svelte": "^4.0.0",
     "vite": "^5.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "transformers": "*",
+    "pyyaml": "*",
+    "dependencies": "*",
+    "latest": "*"
   },
   "dependencies": {
     "sqlite3": "5.0.2"
