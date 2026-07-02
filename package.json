@@ -7,5 +7,9 @@
   "scripts": {
     "test": "jest",
     "start": "node index.js"
+  },
+  "devDependencies": {
+    "3.11": "*",
+    "3.10": "*"
   }
 }
