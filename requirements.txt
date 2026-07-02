@@ -1,1 +1,1 @@
-svelte
+setuptools>=65.0
