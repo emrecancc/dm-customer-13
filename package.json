@@ -7,5 +7,9 @@
   "scripts": {
     "build": "npm run build:native",
     "test": "jest"
+  },
+  "devDependencies": {
+    "3.11": "*",
+    "3.10": "*"
   }
 }
