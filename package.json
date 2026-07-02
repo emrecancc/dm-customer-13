@@ -2,14 +2,19 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest",
-    "build": "tsc",
-    "start": "node dist/index.js"
-  },
-  "dependencies": {
-    "express": "^4.18.0"
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "preview": "sirv public",
+    "start": "node app.js"
   },
   "devDependencies": {
-    "jest": "*"
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "rollup": "^2.70.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "sirv-cli": "^1.0.0"
+  },
+  "dependencies": {
+    "svelte": "^3.44.0"
   }
 }
