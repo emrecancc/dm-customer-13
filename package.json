@@ -9,9 +9,7 @@
     "start": "node index.js"
   },
   "devDependencies": {
-    "dependencies": "*",
-    "react": "*",
-    "react-dom": "*",
-    "undefined": "*"
+    "3.11": "*",
+    "3.10": "*"
   }
 }
