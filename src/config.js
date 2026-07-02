@@ -1,7 +1,5 @@
-export default {
-  api: {
-    baseUrl: 'http://localhost:3000',
-    timeout: 5000
-  },
-  debug: true
+export function validateConfig() {
+  if (!process.env.NEXTAUTH_SECRET) {
+    process.env.NEXTAUTH_SECRET = 'dev-secret';
+  }
 }
