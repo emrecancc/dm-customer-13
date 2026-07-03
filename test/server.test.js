@@ -1,13 +1,15 @@
-import request from 'supertest';
-import app from '../src/app';
+const server = require('../src/server');
+const request = require('supertest');
 
-const server = app.listen(3099);
-
-describe('Server', () => {
-  it('responds to GET /', async () => {
-    const res = await request(server).get('/');
-    expect(res.status).toBe(200);
-  });
+beforeAll(() => {
+  server.listen(3119);
 });
 
-afterAll(() => server.close());
+test('GET /', async () => {
+  const res = await request(server).get('/');
+  expect(res.status).toBe(200);
+});
+
+afterAll(() => {
+  server.close();
+});
