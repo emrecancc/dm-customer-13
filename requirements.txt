@@ -1,2 +1,2 @@
-orjson
-matplotlib
+pandas
+beanie
