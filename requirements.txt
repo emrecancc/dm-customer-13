@@ -1,1 +1,2 @@
-orjson
+tortoise-orm
+celery
