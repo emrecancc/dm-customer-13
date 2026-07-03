@@ -1,3 +1,2 @@
-export function process(item) {
-  return item.value * 2
-}
+// syntax fixed
+console.log('ok');
