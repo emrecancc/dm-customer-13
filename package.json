@@ -1,9 +1,12 @@
 {
-  "name": "dm-customer-13",
+  "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p dist && echo '// placeholder' > dist/index.js",
-    "start": "node dist/index.js",
-    "test": "echo 'ok'"
+    "test": "jest --passWithNoTests",
+    "build": "echo ok"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-environment-node": "^29.0.0"
   }
 }
