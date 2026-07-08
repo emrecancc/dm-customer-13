@@ -1,5 +1,7 @@
-export function validateConfig() {
-  if (!process.env.NEXTAUTH_SECRET) {
-    process.env.NEXTAUTH_SECRET = 'dev-secret';
-  }
-}
+const config = {
+  port: 3000,
+  host: 'localhost'
+  debug: true,
+  timeout: 5000
+};
+module.exports = config;
